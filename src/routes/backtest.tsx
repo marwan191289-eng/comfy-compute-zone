@@ -70,7 +70,7 @@ function BacktestPage() {
   };
 
   return (
-    <div dir="rtl" className="min-h-screen bg-background text-foreground">
+    <div dir="rtl" className="terminal dark min-h-screen bg-background text-foreground">
       <header className="border-b border-border bg-card/40 backdrop-blur sticky top-0 z-30">
         <div className="container py-3 flex items-center justify-between gap-3">
           <h1 className="text-lg md:text-xl font-bold">

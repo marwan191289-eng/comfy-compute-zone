@@ -63,7 +63,7 @@ function Dashboard() {
   const [showSettings, setShowSettings] = useState(false);
 
   return (
-    <div className="min-h-screen text-foreground scan-line">
+    <div className="terminal dark min-h-screen text-foreground scan-line">
       <Header />
       <main className="max-w-[1600px] mx-auto px-4 md:px-6 pb-12 space-y-5">
         <SymbolBar active={symbol} onSelect={setSymbol} />

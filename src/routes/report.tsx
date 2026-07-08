@@ -58,7 +58,7 @@ function ReportPage() {
 
   if (!snap) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-foreground">
+      <div className="terminal dark min-h-screen flex items-center justify-center text-foreground">
         <div className="text-center max-w-md p-6 rounded-2xl border border-border bg-card/40">
           <FileText className="size-10 text-muted-foreground mx-auto mb-3" />
           <div className="font-bold text-lg">لا توجد جلسة تحليل محفوظة بعد</div>
