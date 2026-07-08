@@ -43,7 +43,7 @@ import { cn } from "@/lib/utils";
 import { RLAgentPanel } from "@/components/trading/RLAgentPanel";
 import { Radio, Zap, BookOpen, Crosshair, LineChart, FileText, Sliders, FlaskConical, AlertTriangle, GitCompare, Activity } from "lucide-react";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
       { title: "WhaleEye — منصة التحليل المؤسساتي للعملات الرقمية" },
