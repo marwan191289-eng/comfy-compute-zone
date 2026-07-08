@@ -1,4 +1,3 @@
-src/hooks/useBinance.ts
 import { useEffect, useRef, useState, useCallback } from "react";
 import {
   fetchDepth,
